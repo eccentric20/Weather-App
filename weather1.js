@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
   
       const apiKey = '32f26f5ac306bc4ec84bfd21e6c5315c';
-      const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
       const weatherIcons = {
         // Clear Weather
         "Clear sky": "bi bi-sun",                      // Sun icon
